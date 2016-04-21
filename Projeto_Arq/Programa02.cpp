@@ -104,5 +104,6 @@ int main(){
     cout << "Porcentagem de erros: " << ((float)erros/n_acessos)*100.0 << endl;
 
     delete imagem;
+    cin.get();
     return 0;
 }
